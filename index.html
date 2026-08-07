@@ -1,230 +1,234 @@
 <!DOCTYPE html>
-
-<html class="light" lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Beatriz Iñiguez - Professional Portfolio</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&amp;family=Hanken+Grotesk:wght@400..700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="output.css">
-<style>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Beatriz Iñiguez - Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&amp;family=Hanken+Grotesk:wght@400..700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="output.css">
+    <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
     </style>
-
 </head>
 <body class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
 <!-- TopNavBar -->
 <nav class="sticky top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30 transition-all duration-300">
-<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
-<a class="font-headline-sm text-headline-sm tracking-tighter text-on-surface dark:text-on-surface hover:text-primary transition-all duration-300 scale-102" href="#">
-                BEATRIZ IÑIGUEZ
-            </a>
-<div class="hidden md:flex items-center gap-8">
-<a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1" href="#">INICIO</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#projects">PROYECTOS</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#contact">CONTACTO</a>
-</div>
-<a class="hidden md:inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform" href="#contact">
-                HABLEMOS
-            </a>
-<button class="md:hidden text-on-surface hover:text-primary">
-<span class="material-symbols-outlined text-3xl">menu</span>
-</button>
-</div>
-</nav>
-<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<!-- Hero Section -->
-<section class="py-stack-xl min-h-[819px] flex flex-col justify-center border-b border-outline-variant/20">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
-<!-- Left Column -->
-<div class="lg:col-span-7 flex flex-col gap-stack-md z-10">
-<div class="space-y-6">
-<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">HOLA, SOY BEATRIZ</span>
-<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">
-                            Desarrolladora Full Stack<br/>
-<span class="text-primary italic font-light">Atención al Cliente, Ventas</span>
-</h1>
-<p class="font-headline-sm text-headline-sm text-on-surface-variant max-w-2xl">
-                            Transformando experiencia en soluciones digitales.
-                        </p>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
-                            Profesional con más de 15 años de experiencia en el sector retail, especializada en atención al cliente, ventas y fidelización. Actualmente desarrollo nuevas competencias en Desarrollo Web Full Stack e Inteligencia Artificial.
-                        </p>
-</div>
-<div class="flex flex-wrap gap-4 pt-4">
-<a class="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform" href="#projects">
-                            VER MIS PROYECTOS
-                        </a>
-<a class="inline-flex items-center justify-center px-8 py-4 border border-outline-variant text-on-surface font-label-caps text-label-caps rounded-full hover:border-primary hover:text-primary transition-colors duration-300" href="#contact">
-                            CONTACTAR
-                        </a>
-</div>
-</div>
-<!-- Right Column (Image) -->
-<div class="lg:col-span-5 relative mt-12 lg:mt-0 flex justify-center lg:justify-end">
-<div class="relative w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden border border-outline-variant/30 group">
-<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 mix-blend-overlay"></div>
-<img class="w-full h-full object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" data-alt="A highly professional portrait of a woman, likely Beatriz, in a modern, well-lit studio setting. She has a confident, approachable expression, dressed elegantly. The background is a sophisticated deep charcoal with subtle, abstract tech-inspired geometric overlays in luminous gold, perfectly matching a dark-mode, premium tech portfolio aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsyqAAH6t0iUzDAP5O8S_xv79sv98Nd_iRoX-sBTs80La65zlVBQ7GbXGuiY3Etw8WV2B9m8s0xL2Ld632T0JOVfqbTMmMg24YTlP2DY9w6cRmW7uNzWMnIamWZQ2Xi63Qm5IgUf4QIny2VYNdE1rT8OA1EjEpzFgA0jppXDCCaRYcyGeDr2fVdi5BH5zMWyRplLWZgGKCkxPo16N3egDqefT1Dbx3lLinD04edjjy0ahaCdp0JnDG"/>
-</div>
-</div>
-</div>
-<!-- Indicators -->
-<div class="mt-stack-xl grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-outline-variant/20 pt-8">
-<div class="flex flex-col gap-2">
-<span class="font-headline-md text-headline-md text-primary">15+</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">AÑOS DE EXPERIENCIA</span>
-</div>
-<div class="flex flex-col gap-2">
-<span class="font-headline-md text-headline-md text-primary">Full Stack</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">DESARROLLO</span>
-</div>
-<div class="flex flex-col gap-2">
-<span class="font-headline-md text-headline-md text-primary">IA</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">INTEGRACIÓN</span>
-</div>
-</div>
-</section>
-<!-- About Me / Expertise -->
-<section class="py-stack-xl border-b border-outline-variant/20">
-<div class="max-w-3xl mb-stack-lg">
-<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Especialización y Enfoque</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
-                    Mi experiencia en atención al cliente y ventas proporciona una base única para mi trabajo técnico. Abordo el desarrollo no solo como la escritura de código, sino como la creación de soluciones que abordan directamente las necesidades de los usuarios y generan resultados comerciales con una mentalidad proactiva.
-                </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-<!-- Card 1 -->
-<div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
-<div class="mb-8">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">support_agent</span>
-<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">01 — EXPERIENCIA DEL CLIENTE</h3>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant">Profundo conocimiento de las necesidades de los usuarios, construido sobre años de interacción directa y resolución de problemas en entornos minoristas.</p>
-</div>
-<!-- Card 2 -->
-<div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
-<div class="mb-8">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">storefront</span>
-<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">02 — VENTAS Y RETAIL</h3>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant">Historial probado en el impulso de métricas, retención de clientes y colocación estratégica de productos.</p>
-</div>
-<!-- Card 3 -->
-<div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
-<div class="mb-8">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">code_blocks</span>
-<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">03 — DESARROLLO FULL STACK</h3>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant">Creación de aplicaciones web robustas y receptivas utilizando marcos modernos e incorporando capacidades de inteligencia artificial.</p>
-</div>
-</div>
-</section>
-<!-- Selected Projects -->
-<section class="py-stack-xl border-b border-outline-variant/20" id="projects">
-<div class="flex justify-between items-end mb-stack-lg">
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Proyectos Seleccionados</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-<!-- Project 1 -->
-<div class="group bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden hover:border-primary transition-colors duration-300">
-<div class="aspect-video overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover filter grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="A sleek, dark-mode web application interface displayed on a modern laptop screen. The UI is minimalist, featuring data dashboards with thin gold accent lines and sophisticated typography. The lighting is cinematic, emphasizing a premium, tech-forward aesthetic suitable for a high-end portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWjvyyRSIopudoQcqsOetTd_Szg3Mzl9GEwP-BVPG4JAUPhHHOUoTbP2L5mDRxCty5MqkekDfakylxq6PgcI0I5eS5XcahJDc59u1zlTjSPQcWZ1Oe0ngy-8QmGA28QcuM9poKv4bEBwInp3iyFTJV55lfw4mClES6toWUxSMez5kRLtrwlehn0SeFQKOykDiINugX43reJtqm6qbcPrGcoZenON6-LHbqvRiiAPBIq1uEyKO6MHI8"/>
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">REACT</span>
-<span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">NODE.JS</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Refactorización de Plataforma de Comercio Electrónico</h3>
-<div class="flex gap-4">
-<a class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-2" href="#">
-                                VER PROYECTO <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</a>
-</div>
-</div>
-</div>
-<!-- Project 2 -->
-<div class="group bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden hover:border-primary transition-colors duration-300">
-<div class="aspect-video overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover filter grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="An artificial intelligence web experience interface shown on a tablet. The design features abstract, glowing neural network visualizer elements in gold against a deep black background, alongside clean chat UI components. Highly polished, modern, and perfectly aligned with a luxury tech portfolio style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZ0VE4gv-vpO219rLFPL8eTwNvUhw6hsySNHXsi9_rhYmpz0uB01YYw_bgzpYXj6xspASyrW3Kk_fu-qBNfrwfMgSTp7drkpCPsqHk1BMYId7UMNwxOS8rV15aVYRtzXZnAAq64f6E1S1OT91PxeC_nrgcwk_GWxwohE6nB03pp8Q-EtIpQ-6ubZbhYc0lL4sekDt-jwKWHYZaMRNphkvYALFWWBEy_Ko0Y2EE7QJ-anLiPZmVT1s5"/>
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">PYTHON</span>
-<span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">API de OPENAI</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Bot de IA para Servicio al Cliente</h3>
-<div class="flex gap-4">
-<a class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-2" href="#">
-                                VER PROYECTO <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="py-stack-xl" id="contact">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg">
-<div>
-<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6">Trabajemos Juntos.</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-md">
-                        Ya sea que necesites una nueva aplicación web, una integración de IA o alguien que comprenda tanto el código como la experiencia del cliente.
-                    </p>
-<div class="space-y-6">
-<a class="flex items-center gap-4 group" href="mailto:bea.i.c81@gmail.com">
-<span class="material-symbols-outlined text-primary">mail</span>
-<span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">bea.i.c81@gmail.com</span>
-</a>
-<a class="flex items-center gap-4 group" href="#">
-<span class="material-symbols-outlined text-primary">link</span>
-<span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">Perfil de LinkedIn</span>
-</a>
-<a class="flex items-center gap-4 group" href="#">
-<span class="material-symbols-outlined text-primary">code</span>
-<span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">Repositorio de GitHub</span>
-</a>
-</div>
-</div>
-<div class="bg-surface-container-low p-8 rounded-2xl border border-outline-variant/30">
-<form class="space-y-6">
-<div>
-<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">NOMBRE</label>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors" placeholder="Tu nombre" type="text"/>
-</div>
-<div>
-<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">CORREO ELECTRÓNICO</label>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors" placeholder="tu@email.com" type="email"/>
-</div>
-<div>
-<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">MENSAJE</label>
-<textarea class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors resize-none" placeholder="Cuéntame sobre tu proyecto..." rows="4"></textarea>
-</div>
-<button class="w-full py-4 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform mt-4" type="submit">
-                            ENVIAR MENSAJE
-                        </button>
-</form>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="w-full py-stack-lg border-t border-outline-variant/20 bg-surface-container-low dark:bg-surface-container-low flex flex-col items-center text-center px-margin-desktop gap-stack-sm">
-<a class="font-headline-md text-headline-md text-on-surface opacity-80 hover:opacity-100 transition-opacity" href="#">
+    <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+        <a class="font-headline-sm text-headline-sm tracking-tighter text-on-surface dark:text-on-surface hover:text-primary transition-all duration-300 scale-102" href="#">
             BEATRIZ IÑIGUEZ
         </a>
-<div class="flex gap-6">
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">GitHub</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Correo electrónico</a>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant mt-4 opacity-80">
-            © 2024 BEATRIZ IÑIGUEZ CASCALES. TODOS LOS DERECHOS RESERVADOS.
-        </p>
+        <div class="hidden md:flex items-center gap-8">
+            <a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1" href="#">INICIO</a>
+            <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#projects">PROYECTOS</a>
+            <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#contact">CONTACTO</a>
+        </div>
+        <a class="hidden md:inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform" href="#contact">
+            HABLEMOS
+        </a>
+        <button class="md:hidden text-on-surface hover:text-primary">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
+    </div>
+</nav>
+
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+    <!-- Hero Section -->
+    <section class="py-stack-xl min-h-[819px] flex flex-col justify-center border-b border-outline-variant/20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            <!-- Left Column -->
+            <div class="lg:col-span-7 flex flex-col gap-stack-md z-10">
+                <div class="space-y-6">
+                    <span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">HOLA, SOY BEATRIZ</span>
+                    <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">
+                        Desarrolladora Full Stack<br/>
+                        <span class="text-primary italic font-light">Atención al Cliente, Ventas</span>
+                    </h1>
+                    <p class="font-headline-sm text-headline-sm text-on-surface-variant max-w-2xl">
+                        Transformando experiencia en soluciones digitales.
+                    </p>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+                        Profesional con más de 15 años de experiencia en el sector retail, especializada en atención al cliente, ventas y fidelización. Actualmente desarrollo nuevas competencias en Desarrollo Web Full Stack e Inteligencia Artificial.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a class="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform" href="#projects">
+                        VER MIS PROYECTOS
+                    </a>
+                    <a class="inline-flex items-center justify-center px-8 py-4 border border-outline-variant text-on-surface font-label-caps text-label-caps rounded-full hover:border-primary hover:text-primary transition-colors duration-300" href="#contact">
+                        CONTACTAR
+                    </a>
+                </div>
+            </div>
+            <!-- Right Column (Image) -->
+            <div class="lg:col-span-5 relative mt-12 lg:mt-0 flex justify-center lg:justify-end">
+                <div class="relative w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden border border-outline-variant/30 group">
+                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 mix-blend-overlay"></div>
+                    <img class="w-full h-full object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Beatriz Iñiguez" src="./image/photo-Bea.png">
+                </div>
+            </div>
+        </div>
+        <!-- Indicators -->
+        <div class="mt-stack-xl grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-outline-variant/20 pt-8">
+            <div class="flex flex-col gap-2">
+                <span class="font-headline-md text-headline-md text-primary">15+</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">AÑOS DE EXPERIENCIA</span>
+            </div>
+            <div class="flex flex-col gap-2">
+                <span class="font-headline-md text-headline-md text-primary">Full Stack</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">DESARROLLO</span>
+            </div>
+            <div class="flex flex-col gap-2">
+                <span class="font-headline-md text-headline-md text-primary">IA</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">INTEGRACIÓN</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me / Expertise -->
+    <section class="py-stack-xl border-b border-outline-variant/20">
+        <div class="max-w-3xl mb-stack-lg">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Especialización y Enfoque</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Mi experiencia en atención al cliente y ventas proporciona una base única para mi trabajo técnico. Abordo el desarrollo no solo como la escritura de código, sino como la creación de soluciones que abordan directamente las necesidades de los usuarios y generan resultados comerciales con una mentalidad proactiva.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <!-- Card 1 -->
+            <div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
+                <div class="mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">support_agent</span>
+                    <h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">01 — EXPERIENCIA DEL CLIENTE</h3>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant">Profundo conocimiento de las necesidades de los usuarios, construido sobre años de interacción directa y resolución de problemas en entornos minoristas.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
+                <div class="mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">storefront</span>
+                    <h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">02 — VENTAS Y RETAIL</h3>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant">Historial probado en el impulso de métricas, retención de clientes y colocación estratégica de productos.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="p-8 bg-surface-container-low border border-outline-variant/30 rounded-xl hover:border-primary transition-colors duration-300 group">
+                <div class="mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">code_blocks</span>
+                    <h3 class="font-label-caps text-label-caps text-on-surface-variant mb-2">03 — DESARROLLO FULL STACK</h3>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant">Creación de aplicaciones web robustas y receptivas utilizando marcos modernos e incorporando capacidades de inteligencia artificial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Projects -->
+    <section class="py-stack-xl border-b border-outline-variant/20" id="projects">
+        <div class="flex justify-between items-end mb-stack-lg">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface">Proyectos Seleccionados</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+            <!-- Project 1 -->
+            <div class="group bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden hover:border-primary transition-colors duration-300">
+                <div class="aspect-video overflow-hidden bg-surface-container relative">
+                    <img class="w-full h-full object-cover filter grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Refactorización de Plataforma de Comercio Electrónico" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWjvyyRSIopudoQcqsOetTd_Szg3Mzl9GEwP-BVPG4JAUPhHHOUoTbP2L5mDRxCty5MqkekDfakylxq6PgcI0I5eS5XcahJDc59u1zlTjSPQcWZ1Oe0ngy-8QmGA28QcuM9poKv4bEBwInp3iyFTJV55lfw4mClES6toWUxSMez5kRLtrwlehn0SeFQKOykDiINugX43reJtqm6qbcPrGcoZenON6-LHbqvRiiAPBIq1uEyKO6MHI8"/>
+                </div>
+                <div class="p-8">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">REACT</span>
+                        <span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">NODE.JS</span>
+                    </div>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Refactorización de Plataforma de Comercio Electrónico</h3>
+                    <div class="flex gap-4">
+                        <a class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-2" href="#">
+                            VER PROYECTO <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="group bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden hover:border-primary transition-colors duration-300">
+                <div class="aspect-video overflow-hidden bg-surface-container relative">
+                    <img class="w-full h-full object-cover filter grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Bot de IA para Servicio al Cliente" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZ0VE4gv-vpO219rLFPL8eTwNvUhw6hsySNHXsi9_rhYmpz0uB01YYw_bgzpYXj6xspASyrW3Kk_fu-qBNfrwfMgSTp7drkpCPsqHk1BMYId7UMNwxOS8rV15aVYRtzXZnAAq64f6E1S1OT91PxeC_nrgcwk_GWxwohE6nB03pp8Q-EtIpQ-6ubZbhYc0lL4sekDt-jwKWHYZaMRNphkvYALFWWBEy_Ko0Y2EE7QJ-anLiPZmVT1s5"/>
+                </div>
+                <div class="p-8">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">PYTHON</span>
+                        <span class="px-3 py-1 border border-outline-variant rounded-full font-label-caps text-label-caps text-on-surface-variant text-[10px]">API de OPENAI</span>
+                    </div>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Bot de IA para Servicio al Cliente</h3>
+                    <div class="flex gap-4">
+                        <a class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-2" href="#">
+                            VER PROYECTO <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-stack-xl" id="contact">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg">
+            <div>
+                <h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6">Trabajemos Juntos.</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-md">
+                    Ya sea que necesites una nueva aplicación web, una integración de IA o alguien que comprenda tanto el código como la experiencia del cliente.
+                </p>
+                <div class="space-y-6">
+                    <a class="flex items-center gap-4 group" href="mailto:bea.i.c81@gmail.com">
+                        <span class="material-symbols-outlined text-primary">mail</span>
+                        <span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">bea.i.c81@gmail.com</span>
+                    </a>
+                    <a class="flex items-center gap-4 group" href="https://www.linkedin.com/in/beatriz-i%C3%B1iguez-cascales-636a3821b/" target="_blank" rel="noopener noreferrer">
+                        <span class="material-symbols-outlined text-primary">link</span>
+                        <span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">Perfil de LinkedIn</span>
+                    </a>
+                    <a class="flex items-center gap-4 group" href="https://github.com/Beatriz484" target="_blank" rel="noopener noreferrer">
+                        <span class="material-symbols-outlined text-primary">code</span>
+                        <span class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">Repositorio de GitHub</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-surface-container-low p-8 rounded-2xl border border-outline-variant/30">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">NOMBRE</label>
+                        <input class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors" placeholder="Tu nombre" type="text"/>
+                    </div>
+                    <div>
+                        <label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">CORREO ELECTRÓNICO</label>
+                        <input class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors" placeholder="tu@email.com" type="email"/>
+                    </div>
+                    <div>
+                        <label class="block font-label-caps text-label-caps text-on-surface-variant mb-2">MENSAJE</label>
+                        <textarea class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/50 focus:border-primary focus:ring-0 text-on-surface py-3 px-0 transition-colors resize-none" placeholder="Cuéntame sobre tu proyecto..." rows="4"></textarea>
+                    </div>
+                    <button class="w-full py-4 bg-primary-container text-on-primary-container font-label-caps text-label-caps rounded-full hover:bg-primary hover:text-on-primary transition-colors duration-300 hover:scale-[1.02] transform mt-4" type="submit">
+                        ENVIAR MENSAJE
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-stack-lg border-t border-outline-variant/20 bg-surface-container-low dark:bg-surface-container-low flex flex-col items-center text-center px-margin-desktop gap-stack-sm">
+    <a class="font-headline-md text-headline-md text-on-surface opacity-80 hover:opacity-100 transition-opacity" href="#">
+        BEATRIZ IÑIGUEZ
+    </a>
+    <div class="flex gap-6">
+        <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://www.linkedin.com/in/beatriz-i%C3%B1iguez-cascales-636a3821b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://github.com/Beatriz484" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="mailto:bea.i.c81@gmail.com">Correo electrónico</a>
+    </div>
+    <p class="font-body-md text-body-md text-on-surface-variant mt-4 opacity-80">
+        © 2024 BEATRIZ IÑIGUEZ CASCALES. TODOS LOS DERECHOS RESERVADOS.
+    </p>
 </footer>
-</body></html>
+</body>
+</html>
