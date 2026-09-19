@@ -5,7 +5,7 @@
 ## 🚀 Demo en Vivo
 
 Puedes ver la aplicación desplegada en:
-👉 [https://beatriz484.github.io/](https://beatriz484.github.io/) *(o la URL de tu despliegue)*
+👉 [https://beatriz484.github.io/](https://beatriz484.github.io/portfolio/) *(o la URL de tu despliegue)*
 
 ---
 
